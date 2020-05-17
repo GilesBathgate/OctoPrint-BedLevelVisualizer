@@ -1,0 +1,97 @@
+2020-05-17 09:07:44,121 - Connecting to: /dev/ttyACM0
+2020-05-17 09:07:44,175 - Changing monitoring state from "Offline" to "Opening serial port"
+2020-05-17 09:07:44,189 - Connected to: Serial<id=0x7f942c3e8e10, open=True>(port='/dev/ttyACM0', baudrate=115200, bytesize=8, parity='N', stopbits=1, timeout=10.0, xonxoff=False, rtscts=False, dsrdtr=False), starting monitor
+2020-05-17 09:07:44,190 - Changing monitoring state from "Opening serial port" to "Connecting"
+2020-05-17 09:07:44,231 - Send: N0 M110 N0*125
+2020-05-17 09:07:53,332 - Recv: start
+2020-05-17 09:07:53,353 - Recv: echo:echo: Last Updated: May  8 2020 21:44:42 | Author: (none, default config)
+2020-05-17 09:07:53,365 - Recv: Compiled: May  8 2020
+2020-05-17 09:07:53,366 - Send: N0 M110 N0*125
+2020-05-17 09:07:53,371 - Recv: echo: Free Memory: 2211  PlannerBufferBytes: 1360
+2020-05-17 09:07:53,378 - Recv: echo:Hardcoded Default Settings Loaded
+2020-05-17 09:07:53,866 - Recv: echo:SD card ok
+2020-05-17 09:07:54,177 - Recv: ok
+2020-05-17 09:07:54,656 - Send: N0 M110 N0*125
+2020-05-17 09:07:54,661 - Changing monitoring state from "Connecting" to "Operational"
+2020-05-17 09:07:54,801 - Recv: ok
+2020-05-17 09:07:54,822 - Send: N0 M110 N0*125
+2020-05-17 09:07:54,831 - Recv: ok
+2020-05-17 09:07:54,869 - Send: N1 M115*39
+2020-05-17 09:07:54,894 - Recv: FIRMWARE_NAME:Prusa-Firmware 3.2.3 based on Marlin FIRMWARE_URL:https://github.com/prusa3d/Prusa-Firmware PROTOCOL_VERSION:1.0 MACHINE_TYPE:Prusa i3 MK2 EXTRUDER_COUNT:1 UUID:00000000-0000-0000-0000-000000000000
+2020-05-17 09:07:54,915 - Recv: ok
+2020-05-17 09:07:54,924 - Send: M20
+2020-05-17 09:07:54,929 - Recv: Begin file list
+2020-05-17 09:07:54,941 - Recv: End file list
+2020-05-17 09:07:54,953 - Recv: ok
+2020-05-17 09:07:59,902 - Send: M105
+2020-05-17 09:08:00,154 - Recv: ok T:31.7 /0.0 B:32.1 /0.0 T0:31.7 /0.0 @:0 B@:0
+2020-05-17 09:08:04,820 - Send: M105
+2020-05-17 09:08:04,911 - Recv: ok T:31.7 /0.0 B:32.1 /0.0 T0:31.7 /0.0 @:0 B@:0
+2020-05-17 09:08:09,797 - Send: M105
+2020-05-17 09:08:09,814 - Recv: ok T:31.7 /0.0 B:32.1 /0.0 T0:31.7 /0.0 @:0 B@:0
+2020-05-17 09:08:14,797 - Send: M105
+2020-05-17 09:08:14,816 - Recv: ok T:31.7 /0.0 B:32.0 /0.0 T0:31.7 /0.0 @:0 B@:0
+2020-05-17 09:08:19,801 - Send: M105
+2020-05-17 09:08:19,817 - Recv: ok T:31.7 /0.0 B:32.1 /0.0 T0:31.7 /0.0 @:0 B@:0
+2020-05-17 09:08:24,803 - Send: M105
+2020-05-17 09:08:24,816 - Recv: ok T:31.7 /0.0 B:32.1 /0.0 T0:31.7 /0.0 @:0 B@:0
+2020-05-17 09:08:29,806 - Send: M105
+2020-05-17 09:08:29,821 - Recv: ok T:31.7 /0.0 B:32.1 /0.0 T0:31.7 /0.0 @:0 B@:0
+2020-05-17 09:08:34,807 - Send: M105
+2020-05-17 09:08:34,825 - Recv: ok T:31.8 /0.0 B:32.0 /0.0 T0:31.8 /0.0 @:0 B@:0
+2020-05-17 09:08:39,584 - Send: G28 W
+2020-05-17 09:08:40,270 - Recv: Undefined bed correction matrix.
+2020-05-17 09:08:40,284 - Recv: Invalid bed correction matrix. Resetting to identity.
+2020-05-17 09:08:41,564 - Recv: Undefined bed correction matrix.
+2020-05-17 09:08:41,578 - Recv: Invalid bed correction matrix. Resetting to identity.
+2020-05-17 09:08:41,583 - Recv: ok
+2020-05-17 09:08:44,810 - Send: M105
+2020-05-17 09:08:44,826 - Recv: ok T:31.7 /0.0 B:32.1 /0.0 T0:31.7 /0.0 @:0 B@:0
+2020-05-17 09:08:49,814 - Send: M105
+2020-05-17 09:08:49,827 - Recv: ok T:31.7 /0.0 B:32.1 /0.0 T0:31.7 /0.0 @:0 B@:0
+2020-05-17 09:08:50,063 - Send: G80
+2020-05-17 09:08:52,168 - Recv: echo:busy: processing
+2020-05-17 09:08:52,184 - Printer seems to support the busy protocol, will adjust timeouts and set busy interval accordingly
+2020-05-17 09:08:54,299 - Recv: echo:busy: processing
+2020-05-17 09:08:56,429 - Recv: echo:busy: processing
+2020-05-17 09:08:58,558 - Recv: echo:busy: processing
+2020-05-17 09:09:00,685 - Recv: echo:busy: processing
+2020-05-17 09:09:02,816 - Recv: echo:busy: processing
+2020-05-17 09:09:04,946 - Recv: echo:busy: processing
+2020-05-17 09:09:07,075 - Recv: echo:busy: processing
+2020-05-17 09:09:09,205 - Recv: echo:busy: processing
+2020-05-17 09:09:09,356 - Recv: clean up finished
+2020-05-17 09:09:09,359 - Recv: 
+2020-05-17 09:09:09,434 - Recv: Z shift applied:0.00babystep applied
+2020-05-17 09:09:09,438 - Recv: Bed leveling correction finished
+2020-05-17 09:09:09,446 - Recv: Upsample finished
+2020-05-17 09:09:09,451 - Recv: Mesh bed leveling activated
+2020-05-17 09:09:11,369 - Recv: echo:busy: processing
+2020-05-17 09:09:13,466 - Recv: echo:busy: processing
+2020-05-17 09:09:15,595 - Recv: echo:busy: processing
+2020-05-17 09:09:15,775 - Recv: Go home finished
+2020-05-17 09:09:15,780 - Recv: ok
+2020-05-17 09:09:15,789 - Send: M113 S2
+2020-05-17 09:09:15,797 - Recv: ok
+2020-05-17 09:09:15,804 - Send: M105
+2020-05-17 09:09:15,812 - Recv: ok T:31.7 /0.0 B:32.0 /0.0 T0:31.7 /0.0 @:0 B@:0
+2020-05-17 09:09:19,821 - Send: M105
+2020-05-17 09:09:19,838 - Recv: ok T:31.7 /0.0 B:32.1 /0.0 T0:31.7 /0.0 @:0 B@:0
+2020-05-17 09:09:21,177 - Send: G81
+2020-05-17 09:09:21,188 - Recv: Num X,Y: 7,7
+2020-05-17 09:09:21,192 - Recv: Z search height: 5
+2020-05-17 09:09:21,195 - Recv: Measured points:
+2020-05-17 09:09:21,200 - Recv:   0.26250  0.34491  0.40546  0.44417  0.46102  0.45602  0.42917
+2020-05-17 09:09:21,204 - Recv:   0.33176  0.34817  0.36511  0.38259  0.40061  0.41916  0.43824
+2020-05-17 09:09:21,207 - Recv:   0.36565  0.33718  0.32514  0.32954  0.35036  0.38761  0.44130
+2020-05-17 09:09:21,210 - Recv:   0.36417  0.31194  0.28556  0.28500  0.31028  0.36139  0.43833
+2020-05-17 09:09:21,215 - Recv:   0.32731  0.27246  0.24635  0.24898  0.28036  0.34048  0.42935
+2020-05-17 09:09:21,218 - Recv:   0.25509  0.21872  0.20752  0.22148  0.26061  0.32490  0.41435
+2020-05-17 09:09:21,226 - Recv:   0.14750  0.15074  0.16907  0.20250  0.25102  0.31463  0.39333
+2020-05-17 09:09:21,229 - Recv: ok
+2020-05-17 09:09:24,822 - Send: M105
+2020-05-17 09:09:24,835 - Recv: ok T:31.8 /0.0 B:32.1 /0.0 T0:31.8 /0.0 @:0 B@:0
+2020-05-17 09:09:29,824 - Send: M105
+2020-05-17 09:09:29,838 - Recv: ok T:31.7 /0.0 B:32.1 /0.0 T0:31.7 /0.0 @:0 B@:0
+2020-05-17 09:09:34,829 - Send: M105
+2020-05-17 09:09:34,843 - Recv: ok T:31.7 /0.0 B:32.1 /0.0 T0:31.7 /0.0 @:0 B@:0
